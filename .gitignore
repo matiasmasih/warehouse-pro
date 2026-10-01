@@ -1,0 +1,24 @@
+# Application config (contains credentials — never commit)
+config.php
+
+# Backups and editor temp files
+*.bak
+*.before_*
+*.swp
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploads / attachments (if you add them later)
+uploads/
+storage/
+
+# Composer / vendor (if you add them later)
+vendor/
+composer.lock
